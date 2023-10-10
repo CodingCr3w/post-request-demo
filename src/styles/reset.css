@@ -1,0 +1,40 @@
+/* RESET RULES */
+input:not([type="radio"]):not([type="checkbox"]) {
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
